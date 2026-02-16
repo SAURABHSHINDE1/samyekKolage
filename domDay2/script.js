@@ -24,6 +24,7 @@ console.log(paragraph)
 
 let head = document.getElementById("heading")
 console.log(head)
+head.textContent = "Hello Samyek"
 
 let para = document.getElementById("pyara")
 console.log(para)
@@ -32,6 +33,7 @@ let image = document.getElementById("img")
 console.log(image)
 
 let box = document.getElementById("card")
+box.textContent = "Rohit Samyek kolage"
 
 box.style.height = "200px"
 box.style.width = "200px"
