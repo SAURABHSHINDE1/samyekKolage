@@ -47,3 +47,25 @@
 // box.appendChild(h2)
 
 // }
+
+
+let body = document.querySelector("body")
+
+
+let card = document.createElement("div")
+card.className = "card"
+body.appendChild(card)
+
+
+let h1 = document.createElement("h1")
+h1.textContent = "Product : Mobile"
+card.appendChild(h1)
+
+
+let h2 = document.createElement("h2")
+h2.textContent = "Spacification : 8Gb Ram 256Gb storage"
+card.appendChild(h2)
+
+let h3 = document.createElement("h3")
+h3.textContent=  "Price : 25000"
+card.appendChild(h3)
